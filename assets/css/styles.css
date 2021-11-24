@@ -14,6 +14,10 @@ p {
       color:var(--bs-dark-box);
 }
 
+.light-title{
+  color:white;
+}
+
 .width--100{
     width: 100%;
 }
@@ -29,18 +33,44 @@ p {
 .background-chorreado{
     background-image: url("../img/background/background.png");
     background-size: cover;
-  }
+}
+
+.navbar-dropdown-button{
+  background-color: transparent;
+  background-repeat: no-repeat;
+  border: none;
+  cursor: pointer;
+  overflow: hidden;
+  outline: none;
+}
+
+
+
+.dark--dropbox{
+  background-color: black;
+  border-radius: 2px;
+  border-color: white;
+}
+
+.dark--text {color: black;}
+
+.navbar-brand{
+  letter-spacing: 0.4em;
+} 
 
 .navbar-dark .navbar-nav .show > .nav-link,
 .navbar-dark .navbar-nav .nav-link.active {
   color: var(--bs-verde-important);
 }
+
 .navbar-dark .navbar-nav .nav-link {
     color: white;
-  }
+}
+
 .navbar-dark .navbar-nav .nav-link:hover, .navbar-light .navbar-nav .nav-link:focus {
     color: var(--bs-verde-important);
 }
+
 .navbar-dark .navbar-nav .show > .nav-link,
 .navbar-dark .navbar-nav .nav-link.active {
     color: var(--bs-verde-important);
@@ -49,10 +79,12 @@ p {
 .navbar-dark .navbar-toggler-icon {
   background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 254, 254, 0.7%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
 }
+
 .navbar-dark .navbar-toggler {
     color: rgba(255, 254, 254, 0.7);
     border-color: white;
 }
+
 @media (prefers-reduced-motion: reduce) {
     .navbar-toggler {
       -webkit-transition: none;
@@ -107,24 +139,24 @@ p {
 
 
 /*-----------------------------------------------
-|              Rompecabezas
+|              Contact
 -----------------------------------------------*/
-#entorno {
-	display: block;
-	margin: 0 auto;
-}
 
-#fondo {
-	opacity: 0.3;
-}
 
 .titulo-seccion{
   text-align: center;
   font-family: "Poppins", "Rubik", -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-  font-size: 4rem;
+  font-size: 3rem;
   
 
 }
+.story--text{
+  text-align: justify;
+  text-justify: inter-word;
+  color: white;
+  font-family: "Poppins", "Rubik", -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
 
 /*-----------------------------------------------
 |              Contenedores
