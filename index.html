@@ -99,7 +99,7 @@
       <div class = "row white m-0 justify-content-around">
 
           <div class = "d-flex">
-              <img  class="align-middle" src="assets/img/JustGirls.gif" width="400" height="400">
+              <img  class="align-middle" src="assets/img/JustGirls.gif"  height="400">
           </div>           
 
           
@@ -177,13 +177,16 @@
           <h2 class = "titulo-seccion dark-title mt-3" id = "collections"> Contact us </h2>
           <div class="contact-box mt-4">
             
-            <div class="right">              
+            <form action="https://formsubmit.co/2a820b313486afbd98174c5f0e7dedf3" class="right" method="POST">              
               <input type="text" class="field" placeholder="Your Name">
               <input type="text" class="field" placeholder="Your Email">
               <input type="text" class="field" placeholder="Phone">
               <textarea placeholder="Message" class="field"></textarea>
-              <button class="button button--dark width--100">Send</button>
-            </div>
+              <input type="hidden" name="_captcha" value="false">
+              <input type="hidden" name="_subject" value="New Message!">              
+              <input type="hidden" name="_next" value="https://parts-multimedia.com/#contact">
+              <button type="submit" class="button button--dark width--100">Send</button>
+            </form>
           </div>          
               
           
