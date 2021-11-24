@@ -178,14 +178,15 @@
           <div class="contact-box mt-4">
             
             <form action="https://formsubmit.co/2a820b313486afbd98174c5f0e7dedf3" class="right" method="POST">              
-              <input type="text" class="field" placeholder="Your Name">
-              <input type="text" class="field" placeholder="Your Email">
-              <input type="text" class="field" placeholder="Phone">
-              <textarea placeholder="Message" class="field"></textarea>
+              <input type="text" class="field" name="name" required placeholder="Your Name">
+              <input type="email" class="field" name="email" required placeholder="Your Email">
+              <input type="text" class="field" name="phone" placeholder="Phone">
+              <textarea placeholder="Message" name="message" class="field"></textarea>
               <input type="hidden" name="_captcha" value="false">
-              <input type="hidden" name="_subject" value="New Message!">              
+              <input type="hidden" name="_subject" value="Nuevo mensaje en Parts-multimedia">              
               <input type="hidden" name="_next" value="https://parts-multimedia.com/#contact">
               <button type="submit" class="button button--dark width--100">Send</button>
+              
             </form>
           </div>          
               
@@ -231,6 +232,7 @@
     <script src="https://polyfill.io/v3/polyfill.min.js?features=window.scroll"></script>
     <script src="vendors/fontawesome/all.min.js"></script>
     <script src="assets/js/theme.js"></script>
+    <script src="assets/js/contact.js"></script>
     <script type="text/javascript" src="assets/js/main.js"></script>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&amp;family=Volkhov:wght@700&amp;display=swap" rel="stylesheet">
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
