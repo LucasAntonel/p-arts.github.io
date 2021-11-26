@@ -450,16 +450,13 @@ color: white;
 --------------------------------------------------------------------------------------------*/
 
 .justg-navbar{
-  background-color: black;
+  background-color: #011D41;
 }
-.slob-navbar{
-  background-color: #922B84;
-}
-.slob-background{
+.justg-background{
   background: linear-gradient(to bottom, #D77CBC, #922B84);   
 }
 
-.slob-banner{
+.justg-banner{
   
   max-width: 100%;
   
