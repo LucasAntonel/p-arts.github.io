@@ -16,6 +16,7 @@ p {
 
 .light-title{
   color:white;
+  text-align: center;
 }
 
 .width--100{
@@ -153,11 +154,27 @@ p {
 
 }
 .story--text{
+  font-size: 1.5rem;
+  width: 70%;
   text-align: justify;
   text-justify: inter-word;
   color: white;
   font-family: "Poppins", "Rubik", -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 }
+
+@media screen and (max-width: 880px){
+  .story--text{
+    font-size: 1rem;
+    width: 70%;
+    text-align: justify;
+    text-justify: inter-word;
+    color: white;
+    font-family: "Poppins", "Rubik", -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  }
+}
+
+
+
 
 
 /*-----------------------------------------------
@@ -165,7 +182,7 @@ p {
 -----------------------------------------------*/
 
 .contenedor{
-  height: 700px;
+  height: 3000px;
 
 }
 .contenedor.white{
@@ -449,6 +466,96 @@ color: white;
 |                                       Just Girls                                          |
 --------------------------------------------------------------------------------------------*/
 
+.justg--sec1--background{
+  background-image: url("../img/justGirls_page/justg-bk-sec1.jpg");
+  background-repeat:no-repeat;
+
+  background-size:cover;
+  
+}
+
+.justg-roadmap{
+  width:80%;
+  margin:auto;
+
+}
+
+.wallet-button{
+  background-color: #D2CE7A;
+  color:#011D41; 
+  display: block;
+  
+  border-radius:4rem;
+  text-decoration: none;
+  text-align:center;
+  font-size:0.75rem;
+  
+  padding: 0.350rem 0.35rem;
+  font-family: "Poppins", "Rubik", -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  
+
+}
+.wallet-button:hover{
+  background-color: #AEB936;
+  color:#011D41; 
+  display: block;
+  
+  border-radius:4rem;
+  text-decoration: none;
+  text-align:center;
+  font-size:0.75rem;
+  
+  padding: 0.350rem 0.35rem;
+  font-family: "Poppins", "Rubik", -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  
+
+}
+
+
+
+
+.justg--background{
+  background-image: url("../img/justGirls_page/bk_jg.jpg");
+  background-size:cover;
+  background-repeat:repeat;
+  background-color: #011D41;
+
+  /* Background image is centered vertically and horizontally at all times */
+  background-repeat:no-repeat;
+  background-size:contain;
+  background-position:center;
+}
+.opensea-button{
+  background-color: #41A0FF;
+  color: white; 
+  display: block;
+  border: 0px solid white;
+  border-radius: 50px;
+  text-decoration: none;
+  text-align:center;
+  font-size:2rem;
+  margin-bottom: 6rem;
+  padding: 0.750rem 0.75rem;
+  font-family: "Poppins", "Rubik", -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  
+}
+
+.opensea-button:hover{
+  background-color: #41A0FF;
+  color: var(white); 
+  display: block;
+  border: 0px solid white;
+  border-radius: 50px;
+  text-decoration: none;
+  text-align:center;
+  font-size:2rem;
+  margin-bottom: 6rem;
+  padding: 0.750rem 0.75rem;
+  font-family: "Poppins", "Rubik", -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  
+}
+
+
 .justg-navbar{
   background-color: #011D41;
 }
@@ -457,9 +564,7 @@ color: white;
 }
 
 .justg-banner{
-  
   max-width: 100%;
-  
 }
 
 .justg-grid-item {
@@ -470,16 +575,14 @@ color: white;
   align-self: center;
   padding: 20px;
   font-size: 30px;  
-
   box-shadow: 0px 0px 19px 5px rgba(0,0,0,0.19);
 }
+
 .justg-grid-container {
   list-style: none;
   margin: 2em;
   display: grid;
-  
   grid-gap: 10px;
-  
   grid-template-columns: repeat(auto-fit,minmax(300px, 1fr));
 }
 
@@ -499,11 +602,9 @@ color: white;
   font-size:25px;
   padding: 0.25rem 0.5rem;
   font-family: "Poppins", "Rubik", -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-
 }
 
-.justg-grig-button:hover {
-  
+.justg-grig-button:hover {  
   color: var(--bs-verde-important);
   text-decoration: none;
 }
@@ -527,12 +628,13 @@ color: white;
   padding: 0.25rem 0.5rem;
   font-family: "Poppins", "Rubik", -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   letter-spacing: 0.4em;
-
 }
+
 .parts-back-button:hover{
   text-decoration: none;
 color: var(--bs-verde-important);
 }
+
 
 
 
