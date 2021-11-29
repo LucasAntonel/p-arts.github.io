@@ -542,7 +542,7 @@ color: white;
 
 .opensea-button:hover{
   background-color: #41A0FF;
-  color: var(white); 
+  color: #011D41; 
   display: block;
   border: 0px solid white;
   border-radius: 50px;
